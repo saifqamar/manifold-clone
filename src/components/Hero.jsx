@@ -12,9 +12,9 @@ export default function Hero(){
                     <div className="otherdet w-full absolute inset-0 mx-auto lg:flex lg:flex-row-reverse">
                         <div className="imgs relative p-3 flex justify-center lg:w-7/12  lg:justify-start lg:items-center lg:pr-28">
                             <div className="vid-sec rounded-2xl h-[480px] w-[390px] lg:h-[750px] lg:w-auto overflow-hidden">
-                                <video className="w-full h-full" src="https://manifold.xyz/assets/home-hero-art.0a8432db.mp4"></video>
+                                <video className="w-full h-full" autoPlay loop src="https://manifold.xyz/assets/home-hero-art.0a8432db.mp4"></video>
                             </div>
-                            <img className="absolute h-[250px] lg:h-[350px]  top-16 lg:top-[30%] right-[0%]" src="https://manifold.xyz/assets/home-hero-contract.2e28db6e.png" alt="" />
+                            <img className="absolute h-[150px] sm:h-[200px] w-auto lg:h-[350px]  top-16 lg:top-[30%] right-[-10%] sm:right-[0%]" src="https://manifold.xyz/assets/home-hero-contract.2e28db6e.png" alt="" />
                         </div>
 
                         <div className="det p-8 lg:px-20 lg:absolute lg:w-1/3 lg:flex lg:left-0 lg:flex-col lg:justify-end lg:mb-16 lg:h-full lg:z-50 lg:gap-y-6 bottom-20">

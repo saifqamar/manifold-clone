@@ -9,7 +9,7 @@ export default function DevHero(){
                 <div className="otherdet w-full absolute inset-0 mx-auto lg:flex lg:flex-row-reverse">
                     <div className="imgs relative p-3 flex justify-center lg:w-2/4  lg:h-full  lg:justify-start lg:items-center lg:pr-28">
                         <div className="vid-sec relative rounded-2xl  lg:h-atuo   lg:w-full overflow-hidden">
-                            <video className="w-full absolute p-5 pt-10 h-full object-cover rounded-xl" src="https://manifold.xyz/assets/developers-hero-art.a1ec60b5.mp4"></video>
+                            <video className="w-full absolute p-5 pt-10 h-full object-cover rounded-xl" autoPlay loop src="https://manifold.xyz/assets/developers-hero-art.a1ec60b5.mp4"></video>
                             <img className="z-60 h-full w-full" src="https://manifold.xyz/assets/developers-hero-browser.3c83fb96.svg" alt="" />
                         </div>
                         <img className="absolute h-[250px] lg:h-[350px]  top-16 lg:top-auto lg:bottom-[2%] left-[-30%]" src="https://manifold.xyz/assets/developers-hero-editor.4d27f254.svg" alt="" />

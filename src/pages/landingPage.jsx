@@ -14,7 +14,7 @@ export default function LandingPage(){
             <Hero />
             <PartnerWithSec />
             <Cards />
-            <JoinUsSec />
+            <JoinUsSec isBorder={true} />
             <Footer />
         </div>
     )

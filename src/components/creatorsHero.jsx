@@ -10,7 +10,7 @@ export default function CreatorsHero(){
                 <div className="otherdet w-full absolute inset-0 mx-auto lg:flex lg:flex-row-reverse">
                     <div className="imgs relative p-3 mx-auto lg:mr-0 mb-20  flex justify-center h-auto w-5/6 lg:w-2/4  lg:h-full  lg:justify-start lg:items-center lg:pr-28">
                         <div className="vid-sec relative rounded-2xl  lg:h-atuo lg:w-full ">
-                            <video className="w-full absolute -bottom-[20%] h-full  rounded-xl " src="https://manifold.xyz/assets/studio-hero-art.a71aa9ac.mp4"></video>
+                            <video className="w-full absolute -bottom-[20%] h-full  rounded-xl " autoPlay loop src="https://manifold.xyz/assets/studio-hero-art.a71aa9ac.mp4"></video>
                             <img className="z-60 h-full w-full" src="https://manifold.xyz/assets/studio-hero-browser.df6857e3.svg" alt="" />
                         </div>
                         <img className="absolute h-[250px] lg:h-[250px]  top-16 lg:top-[50%] right-[2%] backdrop-blur-xl" src="https://manifold.xyz/assets/studio-hero-contract.1c36a4f3.svg" alt="" />
