@@ -10,11 +10,11 @@ export default function CreatorsHero(){
                 <div className="otherdet w-full absolute inset-0 mx-auto lg:flex lg:flex-row-reverse">
                     <div className="imgs relative p-3 mx-auto lg:mr-0 mb-20  flex justify-center h-auto w-5/6 lg:w-2/4  lg:h-full  lg:justify-start lg:items-center lg:pr-28">
                         <div className="vid-sec relative rounded-2xl  lg:h-atuo lg:w-full ">
-                            <video className="w-full absolute -bottom-[20%] h-full  rounded-xl " autoPlay loop src="https://manifold.xyz/assets/studio-hero-art.a71aa9ac.mp4"></video>
+                            <video className="w-full absolute  -bottom-[20%] h-full  rounded-xl " autoPlay loop src="https://manifold.xyz/assets/studio-hero-art.a71aa9ac.mp4"></video>
                             <img className="z-60 h-full w-full" src="https://manifold.xyz/assets/studio-hero-browser.df6857e3.svg" alt="" />
                         </div>
-                        <img className="absolute h-[250px] lg:h-[250px]  top-16 lg:top-[50%] right-[2%] backdrop-blur-xl" src="https://manifold.xyz/assets/studio-hero-contract.1c36a4f3.svg" alt="" />
-                        <img className="absolute h-auto lg:h-auto  top-auto bottom-[-20%] left-10 lg:top-auto lg:bottom-[15%] lg:left-[-0%]" src="https://manifold.xyz/assets/studio-hero-platforms.1c9ebbff.svg" alt="" />
+                        <img className="absolute h-[100px] min-[500px]:h-[180px] lg:h-[250px] top-16 lg:top-[50%] right-[2%] backdrop-blur-xl" src="https://manifold.xyz/assets/studio-hero-contract.1c36a4f3.svg" alt="" />
+                        <img className="absolute h-[30px] min-[500px]:h-[80px] lg:h-auto  top-auto bottom-[-20%] left-10 lg:top-auto lg:bottom-[15%] lg:left-[-0%]" src="https://manifold.xyz/assets/studio-hero-platforms.1c9ebbff.svg" alt="" />
                     </div>  
 
                     <div className="det p-8 lg:absolute lg:left-0 lg:w-1/3 lg:flex  lg:flex-col lg:justify-end lg:mb-16 lg:h-full lg:z-50 lg:gap-y-6 bottom-20">

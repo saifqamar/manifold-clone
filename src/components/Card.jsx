@@ -7,7 +7,7 @@ export default function Card(props){
             <div className="img bg-neutral-900 ">
                 <img className="w-full h-full object-contain" src="https://manifold.xyz/assets/home-gallery.d21e9f05.png" alt="" />
             </div>
-            <div className={props.reverse ? "det-reverse px-4 py-11 lg:py-36 lg:mx-20 " : "det px-4 py-11 lg:py-36 lg:mx-20 "}>
+            <div className={props.reverse ? "det det-reverse px-4 py-11 lg:py-36 lg:mx-20 " : "det px-4 py-11 lg:py-36 lg:mx-20 "}>
                 <p className="text-xs uppercase">Featured</p>
                 <h1 className="text-3xl font-bold mb-5 py-1">MANIFOLD GALLERY</h1>
                 <p className="text-sm mb-5">

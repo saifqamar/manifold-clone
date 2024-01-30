@@ -12,8 +12,8 @@ export default function DevHero(){
                             <video className="w-full absolute p-5 pt-10 h-full object-cover rounded-xl" autoPlay loop src="https://manifold.xyz/assets/developers-hero-art.a1ec60b5.mp4"></video>
                             <img className="z-60 h-full w-full" src="https://manifold.xyz/assets/developers-hero-browser.3c83fb96.svg" alt="" />
                         </div>
-                        <img className="absolute h-[250px] lg:h-[350px]  top-16 lg:top-auto lg:bottom-[2%] left-[-30%]" src="https://manifold.xyz/assets/developers-hero-editor.4d27f254.svg" alt="" />
-                        <img className="absolute h-[250px] lg:h-[200px]  top-16 lg:top-[15%] left-[-20%]" src="https://manifold.xyz/assets/developers-hero-widget.08fcad43.svg" alt="" />
+                        <img className="absolute h-[200px] lg:h-[350px]  top-auto bottom-0 lg:top-auto lg:bottom-[2%] left-[-30%]" src="https://manifold.xyz/assets/developers-hero-editor.4d27f254.svg" alt="" />
+                        <img className="absolute h-[150px] lg:h-[200px]  top-24 lg:top-[15%] left-[-20%]" src="https://manifold.xyz/assets/developers-hero-widget.08fcad43.svg" alt="" />
                     </div>
 
                     <div className="det p-8 lg:absolute lg:w-1/3 lg:flex lg:left-0 lg:flex-col lg:justify-end lg:mb-16 lg:h-full lg:z-50 lg:gap-y-6 bottom-20">

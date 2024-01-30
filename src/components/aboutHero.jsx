@@ -9,7 +9,7 @@ export default function AboutHero(){
                 <div className="otherdet w-full absolute inset-0 mx-auto lg:flex lg:flex-row-reverse">
                     <div className="imgs relative p-3 flex justify-center lg:w-2/4  lg:h-full  lg:justify-start lg:items-center lg:pr-28">
                         <div className="vid-sec relative rounded-2xl  lg:h-atuo   lg:w-full overflow-hidden">
-                            <img className="w-full p-5 pt-10 h-full object-cover rounded-xl" src="https://manifold.xyz/assets/about-hero-photo.78b09d96.png"></img>
+                            <img className=" p-5 pt-10 h-auto max-h-[550px] lg:max-h-auto lg:h-full object-cover rounded-xl" src="https://manifold.xyz/assets/about-hero-photo.78b09d96.png"></img>
                             {/* <img className="z-60 h-full w-full" src="https://manifold.xyz/assets/developers-hero-browser.3c83fb96.svg" alt="" /> */}
                         </div>
                         <img className="absolute min-[300px]:h-[150px] sm:h-[250px] lg:max-h-[200px]  top-16 lg:top-[10%] left-[0%]" src="https://manifold.xyz/assets/about-hero-chat.d8381264.svg" alt="" />

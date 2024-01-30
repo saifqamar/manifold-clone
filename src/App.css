@@ -13,7 +13,14 @@ body{
   grid-auto-flow: dense; 
 }
 
-.card > .det-reverse {
-  grid-column: 1;
-  grid-row: 1;
+.det-reverse {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .det-reverse {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
